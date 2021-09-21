@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test suit for GifGridItem El GifGridItem tiene que verse 1`] = `
+<div
+  className="animate__fadeIn"
+>
+  <img
+    alt="Test"
+    src="https://media0.giphy.com/media/frSfC5NcmyF7q/giphy.gif?cid=06e8b66c72sm7qbmymoflqopm25mpd9kjc5or58kdq34eljb&rid=giphy.gif&ct=g"
+  />
+  <p>
+     
+    Test
+  </p>
+</div>
+`;

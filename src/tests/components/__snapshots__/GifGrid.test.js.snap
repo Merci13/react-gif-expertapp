@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Suit para GifGrid Debe de mostrar el component 1`] = `
+<Fragment>
+  <h3
+    className="animate__fadeIn"
+  >
+    OnePunch
+  </h3>
+  <p
+    className="animate__pulse"
+  >
+     Cargando
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;

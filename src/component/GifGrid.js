@@ -2,6 +2,7 @@
 import React from 'react'
 import { useFecthGifs } from '../hooks/useFetchGifs'
 import { GifGridItem } from './GifGridItem';
+import PropTypes from 'prop-types';
 
 export const GifGrid = ({ category = "" }) => {
    // const apyKey = 'wGlqhmQl8UGQDP7A0JnHkadJ1MYFb10X';
@@ -41,3 +42,9 @@ export const GifGrid = ({ category = "" }) => {
    
     )
 }
+
+GifGrid.propTypes={
+
+        category: PropTypes.string.isRequired
+
+};
