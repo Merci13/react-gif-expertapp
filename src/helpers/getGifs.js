@@ -10,14 +10,15 @@
     const { data } = await resp.json();
 
     const gifs = data.map((image) => {
+    
+
         return {
             id: image.id,
             title: image.title,
-            url: image.url
+            url: image.images.original.url
         }
     });
-    console.log(gifs);
-    console.log(data);
+  
 
     return gifs;
 
